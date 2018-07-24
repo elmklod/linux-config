@@ -18,3 +18,5 @@ cp --preserve=all $PWD/modem/reset_modem.sh $HOME/Tools/
 cp --preserve=all $PWD/screen/redshift.conf $HOME/.config/
 cp --preserve=all $PWD/screen/.Xdefaults $HOME/
 cp --preserve=all $PWD/screen/.xinitrc $HOME/
+cp --preserve=all $PWD/shell/.bashrc $HOME/
+cp --preserve=all $PWD/shell/.bash_profile $HOME/
