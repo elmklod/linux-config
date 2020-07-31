@@ -1,1 +1,1 @@
-xrdb -merge .Xresources & redshift &
+redshift &
