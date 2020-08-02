@@ -1,3 +1,4 @@
+# The current directory should be this script directory
 # Don't forget to provide $HOME variable to sudo
 # And $USRNAME to give the right ownership to directories
 if [ ! -d "$HOME/Tools" ]; then
