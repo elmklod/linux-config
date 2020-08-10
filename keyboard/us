@@ -798,7 +798,7 @@ xkb_symbols "colemak" {
     key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-
+    key <MENU> { [    Super_L ]};
 };
 
 // I do NOT like dead-keys - the International keyboard as defined by Microsoft
