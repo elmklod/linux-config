@@ -16,8 +16,8 @@ if [ ! -d "$HOME/.xmonad" ]; then
 	chown $USRNAME:$USRNAME $HOME/.xmonad
 fi
 
-cp --preserve=all $PWD/keyboard/us /usr/share/X11/xkb/symbols/
-cp --preserve=all $PWD/keyboard/00-keyboard.conf /usr/share/X11/xorg.conf.d/
+cp $PWD/keyboard/us /usr/share/X11/xkb/symbols/
+cp $PWD/keyboard/00-keyboard.conf /usr/share/X11/xorg.conf.d/
 cp --preserve=all $PWD/modem/reset_modem.sh $HOME/Tools/
 cp --preserve=all $PWD/screen/redshift.conf $HOME/.config/
 cp --preserve=all $PWD/screen/.Xdefaults $HOME/
