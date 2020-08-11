@@ -16,6 +16,7 @@ if [ ! -d "$HOME/.xmonad" ]; then
 	chown $USRNAME:$USRNAME $HOME/.xmonad
 fi
 
+cp $PWD/keyboard/inet /usr/share/X11/xkb/symbols/
 cp $PWD/keyboard/us /usr/share/X11/xkb/symbols/
 cp $PWD/keyboard/00-keyboard.conf /usr/share/X11/xorg.conf.d/
 cp --preserve=all $PWD/modem/reset_modem.sh $HOME/Tools/

@@ -1,2 +1,3 @@
 'include "level3(ralt_switch)"' last line was removed from the colemak section to make ralt behave as meta
 MENU key was modified to behave like LWin(Super_L)
+inet has microsoft4000 special arrow keys set to '(' and ')'
