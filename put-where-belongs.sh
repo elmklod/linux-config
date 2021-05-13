@@ -20,3 +20,5 @@ cp --preserve=all $PWD/screen/.Xdefaults $HOME/
 cp --preserve=all $PWD/screen/.xinitrc $HOME/
 cp --preserve=all $PWD/shell/.bashrc $HOME/
 cp --preserve=all $PWD/shell/.bash_profile $HOME/
+cp --preserve=all $PWD/reading/bookread.sh $HOME/Tools/
+cp --preserve=all $PWD/backup/backup.sh $HOME/Tools/

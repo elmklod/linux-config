@@ -1,0 +1,1 @@
+nohup mupdf $1 &
